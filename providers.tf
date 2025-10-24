@@ -5,14 +5,12 @@ terraform {
       version = "~> 3.100.0"
     }
   }
-
-  required_version = ">= 1.5.0"
 }
 
 provider "azurerm" {
   features {}
 
-  # Estas variables se pasan automáticamente desde los secretos del workflow
+  # Variables pasadas desde secrets de GitHub Actions
   client_id       = var.client_id
   client_secret   = var.client_secret
   subscription_id = var.subscription_id
