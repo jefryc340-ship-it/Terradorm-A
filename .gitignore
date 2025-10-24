@@ -1,0 +1,29 @@
+# === TERRAFORM ===
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# === VISUAL STUDIO CODE ===
+.vscode/
+*.code-workspace
+
+# === LOGS ===
+*.log
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+
+# === BACKUPS / OTROS ===
+*.bak
+*.tmp
